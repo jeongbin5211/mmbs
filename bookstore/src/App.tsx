@@ -3,6 +3,7 @@ import {useUserStore} from './stores';
 import mockAxios from './apis/mockAxios';
 import Footer from './layouts/Footer';
 import Header from './layouts/Header';
+import Navigation from './layouts/Navigation';
 
 function App() {
   // 서버 연결 상태를 저장하는 state
@@ -52,6 +53,8 @@ function App() {
   return (
     <>
       <Header />
+
+      <Navigation />
       
       <Footer />
     </>
